@@ -1,0 +1,15 @@
+@use '../abstracts/variables' as *;
+// Mixins
+
+@mixin flex($dir: row, $just: space-between, $align: center) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $just;
+  align-items: $align;
+}
+
+@mixin media($size) {
+  @media (max-width: $size + px) {
+    @content;
+  }
+}

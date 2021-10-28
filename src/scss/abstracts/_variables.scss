@@ -1,0 +1,27 @@
+// Variables
+// # Colors
+$secondary-color: hsl(212, 23%, 69%);
+$primary-color: hsl(217, 19%, 35%);
+$bg-color: hsl(210, 46%, 95%);
+$accent-color: hsl(214, 17%, 51%);
+
+// # Typography
+$font-size: 13px;
+$font-family: 'Manrope', sans-serif;
+
+// # Others
+$radius: 0.675rem;
+
+// # Breakpoints
+$break-1: 570;
+
+// # Custom Prop
+:root {
+  --share-box-width: 18rem;
+  --share-box-height: 4rem;
+
+  // # Others
+  --spacing-sml: 1rem;
+  --spacing: 1.25rem;
+  --spacing-lrg: 2.5rem;
+}
