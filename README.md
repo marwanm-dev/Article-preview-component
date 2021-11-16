@@ -8,7 +8,7 @@
 
 # Live
 
-- https://marodev343-article-preview-component.pages.dev/
+- https://marodevv-article-preview-component.pages.dev/
 
 # Credit
 
