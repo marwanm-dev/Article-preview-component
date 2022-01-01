@@ -1,4 +1,5 @@
 // Variables
+
 // # Colors
 $secondary-color: hsl(212, 23%, 69%);
 $primary-color: hsl(217, 19%, 35%);
@@ -6,16 +7,19 @@ $bg-color: hsl(210, 46%, 95%);
 $accent-color: hsl(214, 17%, 51%);
 
 // # Typography
-$font-size: 13px;
-$font-family: 'Manrope', sans-serif;
+$font__size: 13px;
+$font__family: 'Manrope', sans-serif;
 
 // # Others
 $radius: 0.675rem;
 
+// # Transitions
+$transition: all 0.3s;
+
 // # Breakpoints
 $break-1: 570;
 
-// # Custom Prop
+// # Custom Props
 :root {
   --share-box-width: 18rem;
   --share-box-height: 4rem;

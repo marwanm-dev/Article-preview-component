@@ -1,4 +1,4 @@
-# Article-preview-component
+# ${project-name}
 
 - Created with Html Sass Javascript using *vite*🔥
 

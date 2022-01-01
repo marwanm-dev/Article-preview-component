@@ -1,5 +1,5 @@
-@use '../abstracts/variables' as *;
 // Mixins
+@use './variables' as *;
 
 @mixin flex($dir: row, $just: space-between, $align: center) {
   display: flex;

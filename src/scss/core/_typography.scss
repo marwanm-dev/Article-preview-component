@@ -1,12 +1,15 @@
-@use '../abstracts/variables' as *;
 // Typography
+@use '../abstracts' as *;
 
+// # Basics
 html {
-  font-size: $font-size;
+  font-size: $font__size;
 }
 body {
-  font-family: $font-family;
+  font-family: $font__family;
 }
+
+// # Headings | paragraphs | etc..
 h1 {
   color: $primary-color;
   font-size: 1.5rem;
@@ -19,11 +22,8 @@ p {
   font-size: 0.9rem;
   font-weight: normal;
 }
-.share-box h4 {
-  letter-spacing: 0.5rem;
-  color: $secondary-color;
-  font-weight: lighter;
-}
+
+// # Icons
 i {
   cursor: pointer;
   font-size: 1.65rem;
@@ -35,6 +35,13 @@ i {
     color: $primary-color;
     font-size: 1.3rem;
   }
+}
+
+// # Specifics
+.share-box h4 {
+  letter-spacing: 0.5rem;
+  color: $secondary-color;
+  font-weight: lighter;
 }
 
 .avatar {
