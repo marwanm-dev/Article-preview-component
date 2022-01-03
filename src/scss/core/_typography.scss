@@ -31,24 +31,23 @@ i {
   &:hover {
     color: $accent-color;
   }
-  &.share-icon {
-    color: $primary-color;
-    font-size: 1.3rem;
-  }
 }
 
 // # Specifics
-.share-box h4 {
-  letter-spacing: 0.5rem;
-  color: $secondary-color;
-  font-weight: lighter;
-}
-
 .avatar {
   h4 {
     color: $primary-color;
     p {
       color: $secondary-color;
     }
+  }
+}
+i.share-icon {
+  color: $primary-color;
+  font-size: 1.3rem;
+  h4 {
+    letter-spacing: 0.5rem;
+    color: $secondary-color;
+    font-weight: lighter;
   }
 }
