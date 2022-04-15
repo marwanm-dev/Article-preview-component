@@ -12,7 +12,7 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  border-radius: $radius $radius;
+  border-radius: $radius;
   overflow: hidden;
 
   @include flex-row(center);
