@@ -9,7 +9,7 @@
 
 # Live
 
-- https://marodevv-article-preview-component.pages.dev/
+- https://marodevv-article-preview-component.vercel.app
 
 # Credit
 
