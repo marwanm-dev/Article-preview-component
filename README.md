@@ -10,7 +10,7 @@
 
 ## Live
 
-> https://marodevv-article-preview-component.vercel.app
+> https://marwanmodev-article-preview-component.vercel.app
 
 ## Credit
 
